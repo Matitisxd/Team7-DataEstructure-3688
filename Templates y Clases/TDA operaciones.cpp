@@ -1,9 +1,11 @@
-/* Universidad de las Fuerzas Armadas ESPE
-Carrera: Ing. Software
-Autores: Navas Renato, Paez Adri醤, Pallango Andr閟, Rodriguez Mathyws, Ruiz Jerico
- Fecha de creaci髇: 19/05/2021
- Fecha de modificaci髇: 19/05/2021
-*/
+/*************  Universidad de las Fuerzas Armadas ESPE  ************************
+ *			Carrera: Ing. Software					*
+ *			Autores: Navas Renato, Paez Adri谩n,			*
+ *				 Pallango Andr茅s, Rodriguez Mathyws,		*
+ *				 Ruiz Jeric贸.					*
+ *			Fecha de creaci贸n: 19/05/2021				*
+ *			Fecha de modificaci贸n: 19/05/2021			*
+ ********************************************************************************/
 
 #include <iostream>
 #include <stdio.h>
@@ -53,7 +55,7 @@ int main(int argc, char** argv) {
 	Operaciones<float>operacion(valor1,valor2);
 	cout<<"Suma = "<<operacion.suma()<<endl;
 	cout<<"Resta = "<<operacion.resta()<<endl;
-	cout<<"Multiplicaci髇 = "<<operacion.multiplicacion()<<endl;
-	cout<<"Divisi髇  = "<<operacion.division()<<endl;
+	cout<<"Multiplicaci贸n = "<<operacion.multiplicacion()<<endl;
+	cout<<"Divisi贸n  = "<<operacion.division()<<endl;
 	return 0;
 }
