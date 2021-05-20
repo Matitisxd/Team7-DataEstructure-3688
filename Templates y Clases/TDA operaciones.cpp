@@ -48,14 +48,14 @@ tipoDato Operaciones<tipoDato>::division(){
 
 int main(int argc, char** argv) {
 	float valor1,valor2;
-	cout<<"Ingrese el valor 1";
+	cout<<"Ingrese el valor 1= ";
 	cin>>valor1;
-	cout<<"Ingrese el valor 2";
+	cout<<"Ingrese el valor 2= ";
 	cin>>valor2;
 	Operaciones<float>operacion(valor1,valor2);
 	cout<<"Suma = "<<operacion.suma()<<endl;
 	cout<<"Resta = "<<operacion.resta()<<endl;
-	cout<<"Multiplicación = "<<operacion.multiplicacion()<<endl;
-	cout<<"División  = "<<operacion.division()<<endl;
+	cout<<"Multiplicacion = "<<operacion.multiplicacion()<<endl;
+	cout<<"Division  = "<<operacion.division()<<endl;
 	return 0;
 }
