@@ -1,3 +1,10 @@
+/* Universidad de las Fuerzas Armadas ESPE
+Carrera: Ing. Software
+Autores: Navas Renato, Paez Adrián, Pallango Andrés, Rodriguez Mathyws, Ruiz Jerico
+ Fecha de creación: 19/05/2021
+ Fecha de modificación: 19/05/2021
+*/
+
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
@@ -32,7 +39,7 @@ tipoDato Operaciones<tipoDato>::multiplicacion(){
 template <typename tipoDato>
 tipoDato Operaciones<tipoDato>::division(){
 	if(valor2==0){
-		cout<<"No se puede dividir !!!!"<<endl;
+		cout<<"No se puede dividir"<<endl;
 	}else
 	return valor1/valor2;
 }
