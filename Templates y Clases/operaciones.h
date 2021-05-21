@@ -1,3 +1,9 @@
+/**
+  * @file operaciones.h
+  * @version 1.0
+  * @date 20/05/2021
+  * @title Operaciones
+  */
 #include <iostream>
 #include <stdio.h>
 #include <wchar.h>
@@ -10,6 +16,7 @@ private:
 	tipoDato valor1;
 	tipoDato valor2;
 public:
+	// Constructor
 	Operaciones(tipoDato _valor1, tipoDato _valor2) {
 
 		valor1 = _valor1;
