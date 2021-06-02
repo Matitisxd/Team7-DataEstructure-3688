@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1622609589 source:c:\users\pzeadrian\documents\c++ projects\deberes\debercuotas\fecha.cpp
+	"Persona.h"
+	"Fecha.h"
+
+1622610513 c:\users\pzeadrian\documents\c++ projects\deberes\debercuotas\persona.h
+	<iostream>
+	"Fecha.h"
+	<string.h>
+
+1622609206 c:\users\pzeadrian\documents\c++ projects\deberes\debercuotas\fecha.h
+	<iostream>
+
+1622610801 source:c:\users\pzeadrian\documents\c++ projects\deberes\debercuotas\persona.cpp
+	"Persona.h"
+
+1622610268 source:c:\users\pzeadrian\documents\c++ projects\deberes\debercuotas\main.cpp
+	<iostream>
+	"Persona.h"
+	"Fecha.h"
+	"stdlib.h"
+
