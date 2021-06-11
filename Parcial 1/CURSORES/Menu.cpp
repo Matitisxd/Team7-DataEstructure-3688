@@ -13,14 +13,14 @@ char getch2 ()
    DWORD modo, contador;
    HANDLE ih = GetStdHandle(STD_INPUT_HANDLE);
 
-   // Desactivamos escritura en terminal
+   // Desactivar escritura en terminal
    SetConsoleMode (ih, modo & ~(ENABLE_ECHO_INPUT | ENABLE_LINE_INPUT));
    ReadConsoleA (ih, &c, 1, &contador, NULL);
    if (c == 0) {
       ReadConsoleA (ih, &c, 1, &contador, NULL);
    }
 
-   SetConsoleMode (ih, modo); // Devolvemos control normal
+   SetConsoleMode (ih, modo); // Devolver control normal
 
    return c;
 }
