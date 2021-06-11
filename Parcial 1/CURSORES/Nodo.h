@@ -5,5 +5,7 @@ class Nodo{
 		Nodo *siguiente;
 	public:
 		Nodo(int val, Nodo *sig);		
+	
+	//Llamada a clase amiga
 	friend class Lista;
 };
