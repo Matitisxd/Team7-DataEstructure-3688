@@ -4,6 +4,7 @@ Lista::Lista(){
 	this->actual=NULL;		
 }
 
+//Método para insertar
 void Lista::insertar(int val){
 	Nodo *nuevo=new Nodo(val);
 	if (listaVacia()){
@@ -14,7 +15,8 @@ void Lista::insertar(int val){
 	}
 	this->actual=nuevo;
 }
-		
+
+//Método para visualizar
 void Lista::mostrar(){
 	Nodo *tmp=this->primero;
 	while(tmp){
@@ -24,6 +26,7 @@ void Lista::mostrar(){
 	cout<<"NULL\n";
 }
 
+//Método para validar lista vacía
 bool Lista::listaVacia(){
 	return (this->primero==NULL);
 }
