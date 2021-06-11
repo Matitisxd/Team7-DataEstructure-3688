@@ -50,10 +50,12 @@ void menu_principal()
    bool repite = true;
    int opcion;   
 
-   // Titulo del menú y nombres de las opciones
+   //Opciones del menÃº disponibles
    const char *titulo = "MENU DE OPCIONES";
    const char *opciones[] = {"Sumar", "Restar", "Multiplicar", "Dividir", "Salir"};
-   int n = 5;  // Numero de opciones
+   
+ //Cantidad de Opciones
+ int n = 5;
 
    do {
       opcion = menu(titulo, opciones, n);
@@ -91,10 +93,12 @@ void menu_suma()
    bool repite = true;
    int opcion;
  
-   // Titulo del menú y nombres de las opciones
+   // Opciones disponibles para el menu SUMAR
    const char *titulo = "MENU PARA SUMAR";
    const char *opciones[] = {"Sumar enteros", "Sumar flotantes", "Regresar"};
-   int n = 3;  // Numero de opciones
+   
+ // Cantidad de opciones
+   int n=3;
  
    int a, b;
    float c, d;
@@ -140,10 +144,12 @@ void menu_resta()
    bool repite = true;
    int opcion;
  
-   // Titulo del menú y nombres de las opciones
+ // Opciones disponibles para el menu RESTAR
    const char *titulo = "MENU PARA RESTAR";
    const char *opciones[] = {"Restar enteros", "Restar flotantes", "Regresar"};
-   int n = 3;  // Numero de opciones
+   
+ //Cantidad de opciones
+  int n=3;
  
    int a, b;
    float c, d;
@@ -189,10 +195,12 @@ void menu_producto()
    bool repite = true;
    int opcion;
  
-   // Titulo del menú y nombres de las opciones
+     // Opciones disponibles para el menu MULTIPLICAR
+ 
    const char *titulo = "MENU PARA MULTIPLICAR";
    const char *opciones[] = {"Multiplicar enteros", "Multiplicar flotantes", "Regresar"};
-   int n = 3;  // Numero de opciones
+   //Cantidad de opciones
+   int n=3;
  
    int a, b;
    float c, d;
@@ -238,10 +246,13 @@ void menu_division()
    bool repite = true;
    int opcion;
  
-   // Titulo del menú y nombres de las opciones
+    // Opciones disponibles para el menu DIVIDIR  
+ 
    const char *titulo = "MENU PARA DIVIDIR";
    const char *opciones[] = {"Dividir enteros", "Dividir flotantes", "Regresar"};
-   int n = 3;  // Numero de opciones
+   
+ //Cantidad de opciones
+   int n=3;
  
    int a, b;
    float c, d;
@@ -292,35 +303,37 @@ void menu_division()
  
 int menu(const char titulo[], const char *opciones[], int n)
 {
-   int opcionSeleccionada = 1;  // Indica la opcionSeleccionada
+ 
+ //Seleccionar OpciÃ³n
+ int opcionSeleccionada = 1; 
  
    int tecla;
  
-   bool repite = true; // controla el bucle para regresar a la rutina que lo llamo, al presionar ENTER
+   bool repite = true;
  
    do {
       system("cls");
       system("color 1e");
       gotoxy(5, 3 + opcionSeleccionada); cout << "==>" << endl;
  
-      // Imprime el título del menú
+      // Imprime tÃ­tulo del menÃº
       gotoxy(15, 2); cout << titulo;
  
-      // Imprime las opciones del menú
+      // Imprime opciones del menÃº
       for (int i = 0; i < n; ++i) {
          gotoxy(10, 4 + i); cout << i + 1 << ") " << opciones[i];
       }
  
-      // Solo permite que se ingrese ARRIBA, ABAJO o ENTER
+      // ValidaciÃ³n de ingreso de ARRIBA, ABAJO o ENTER
  
       do {
          tecla = getch2();
-         // gotoxy(15, 15); cout << "tecla presionada: " << (char)tecla << " = " << tecla;
+       
       } while (tecla != ARRIBA && tecla != ABAJO && tecla != ENTER);
  
       switch (tecla) {
  
-         case ARRIBA:   // En caso que se presione ARRIBA
+         case ARRIBA:   
  
             opcionSeleccionada--;
  
