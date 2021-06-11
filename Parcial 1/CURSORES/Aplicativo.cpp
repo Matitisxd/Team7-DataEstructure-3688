@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
 			case 0:
 				do{
 					system("cls");
-					cout << "Ingrese el numero a insertar: " << endl;
+					cout << "Ingresar el numero a insertar: " << endl;
 					cin >> numero;
 					lista.insertar(numero);
 				}while(menu.repetir() != 1);				
@@ -46,7 +46,8 @@ int main(int argc, char** argv) {
 					system("pause");					
 				break;
 			default:
-				cout << "Saliendo.....";
+				cout << "Finalizando programa" <<endl;
+				cout << "Hasta Pronto";
 				break;			
 		}
 	}while(opcion != 5);		
