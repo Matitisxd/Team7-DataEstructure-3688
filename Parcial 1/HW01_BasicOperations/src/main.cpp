@@ -1,10 +1,11 @@
+
 /******************  Universidad de las Fuerzas Armadas ESPE  ************************
  *				Carrera: Software													 *
- *				Autores: Navas Renato, Paez Adri·n,									 *
- *						Pallango AndrÈs, RodrÌguez Mathyws,							 *
- *						Ruiz JericÛ.												 *
- *				Fecha de creaciÛn: 19/05/2021										 *
- *				Fecha de modificaciÛn: 20/05/2021									 *
+ *				Autores: Navas Renato, Paez Adri√°n,									 *
+ *						Pallango Andr√©s, Rodr√≠guez Mathyws,							 *
+ *						Ruiz Jeric√≥.												 *
+ *				Fecha de creaci√≥n: 19/05/2021										 *
+ *				Fecha de modificaci√≥n: 20/05/2021									 *
  *************************************************************************************/
 
 #include <iostream>
@@ -12,22 +13,31 @@
 #include <conio.h>
 #include <wchar.h>
 #include <locale.h>
-#include "operaciones.h"
+#include <Windows.h>
+#include "Operaciones.h"
 
 using namespace std;
 
 int main(int argc, char** argv) {
 
+	setlocale(LC_ALL, "");
+	system("chcp 65001");
+
 	float valor1, valor2;
-	cout << "Ingrese el valor 1: " << endl;
+	cout << "Ingrese el valor 1: ";
 	cin >> valor1;
-	cout << "Ingrese el valor 2: " << endl;
+	cout << "Ingrese el valor 2: ";
 	cin >> valor2;
+
 	Operaciones <float> operacion(valor1, valor2);
+
 	cout << "Suma = " << operacion.suma() << endl;
 	cout << "Resta = " << operacion.resta() << endl;
-	cout << "MultiplicaciÛn = " << operacion.multiplicacion() << endl;
-	cout << "DivisiÛn  = " << operacion.division() << endl;
+	cout << "Multiplicaci√≥n = " << operacion.multiplicacion() << endl;
+	cout << "Divisi√≥n  = " << operacion.division() << endl;
+
+	getch();
+
 	return 0;
 
 }

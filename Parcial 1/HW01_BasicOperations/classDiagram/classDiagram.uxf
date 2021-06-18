@@ -1,0 +1,22 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>120</x><y>260</y><w>210</w><h>120</h></coordinates><panel_attributes>main
+--
+valor1 : float
+valor2 : float
+operacion : Operaciones&lt;float&gt;
+--
++main()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>520</x><y>200</y><w>210</w><h>230</h></coordinates><panel_attributes>Operaciones&lt;tipoDato&gt;
+/template class/
+--
+-tipoDato: valor1
+-tipoDato: valor2
+--
++Operaciones()
++division() : tipoDato
++multiplicacion() : tipoDato
++suma() : tipoDato
++resta() : tipoDato
++getValor1(int _valor1) : tipoDato
++setValor1() : tipoDato
++getValor2(int _valor2) : tipoDato
++setValor2() : tipoDato</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>320</y><w>220</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;uses&gt;&gt;</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element></diagram>

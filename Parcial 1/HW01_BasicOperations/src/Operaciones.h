@@ -1,9 +1,3 @@
-/**
-  * @file operaciones.h
-  * @version 1.0
-  * @date 20/05/2021
-  * @title Operaciones
-  */
 #include <iostream>
 #include <stdio.h>
 #include <wchar.h>

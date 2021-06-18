@@ -1,0 +1,27 @@
+var NAVTREEINDEX0 =
+{
+"_operaciones_8h.html":[1,0,0,1],
+"_operaciones_8h_source.html":[1,0,0,1],
+"annotated.html":[0,0],
+"class_operaciones.html":[0,0,0],
+"class_operaciones.html#a5c2424c4c53af54d5a5e2e6ecd0984ce":[0,0,0,4],
+"class_operaciones.html#a64323a06376a39cd48cf513990d14615":[0,0,0,0],
+"class_operaciones.html#a89e1f005be686e448546d47b40e5d449":[0,0,0,1],
+"class_operaciones.html#a90c748ab170387bedefcf3c678092049":[0,0,0,8],
+"class_operaciones.html#a93ed98df6723eb3f78127d705f44ce2f":[0,0,0,3],
+"class_operaciones.html#a95376b163651586b03a0060098075882":[0,0,0,2],
+"class_operaciones.html#abcd57f9e595cca8a9e6f95e1c9176441":[0,0,0,7],
+"class_operaciones.html#ad144533af8895215ddee54032a4cf672":[0,0,0,6],
+"class_operaciones.html#ad7c78e3f2c4d8e1ee366ffb3ed90a416":[0,0,0,5],
+"classes.html":[0,1],
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html":[1,0,0],
+"files.html":[1,0],
+"functions.html":[0,2,0],
+"functions_func.html":[0,2,1],
+"globals.html":[1,1,0],
+"globals_func.html":[1,1,1],
+"index.html":[],
+"main_8cpp.html":[1,0,0,0],
+"main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[1,0,0,0,0],
+"pages.html":[]
+};
