@@ -1,0 +1,2 @@
+- ClassDiagram de HW02
+- HW03 en adelante
