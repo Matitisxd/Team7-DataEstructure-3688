@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HW01_BasicOperations_CDOCS: Fichero Fuente src/Operaciones.h</title>
+<title>HW01_BasicOperations: Fichero Fuente C:/Users/pzeadrian/Documents/C++ Projects/DEBERES/HW01_BasicOperations/src/Operaciones.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,8 +25,10 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">HW01_BasicOperations_CDOCS
+   <div id="projectname">HW01_BasicOperations
+   &#160;<span id="projectnumber">0.1</span>
    </div>
+   <div id="projectbrief">Calculadora con templates</div>
   </td>
  </tr>
  </tbody>
@@ -90,81 +92,85 @@ $(document).ready(function(){initNavTree('_operaciones_8h_source.html',''); init
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;wchar.h&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;locale.h&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using namespace </span>std;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_operaciones.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_operaciones.html">Operaciones</a> {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    tipoDato valor1;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    tipoDato valor2;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="comment">// Constructor</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_operaciones.html#a64323a06376a39cd48cf513990d14615">   14</a></span>&#160;    <a class="code" href="class_operaciones.html#a64323a06376a39cd48cf513990d14615">Operaciones</a>(tipoDato _valor1, tipoDato _valor2) {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        valor1 = _valor1;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        valor2 = _valor2;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="comment">// Setters</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_operaciones.html#ad144533af8895215ddee54032a4cf672">   22</a></span>&#160;    tipoDato <a class="code" href="class_operaciones.html#ad144533af8895215ddee54032a4cf672">setValor1</a>(<span class="keywordtype">int</span> _valor1) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        valor1 = _valor1;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_operaciones.html#abcd57f9e595cca8a9e6f95e1c9176441">   27</a></span>&#160;    tipoDato <a class="code" href="class_operaciones.html#abcd57f9e595cca8a9e6f95e1c9176441">setValor2</a>(<span class="keywordtype">int</span> _valor2) {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        valor2 = _valor2;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_operaciones.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_operaciones.html">Operaciones</a> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    tipoDato valor1;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    tipoDato valor2;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_operaciones.html#a64323a06376a39cd48cf513990d14615">   28</a></span>&#160;    <a class="code" href="class_operaciones.html#a64323a06376a39cd48cf513990d14615">Operaciones</a>(tipoDato _valor1, tipoDato _valor2) {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        valor1 = _valor1;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        valor2 = _valor2;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">// Getters</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_operaciones.html#a95376b163651586b03a0060098075882">   34</a></span>&#160;    tipoDato <a class="code" href="class_operaciones.html#a95376b163651586b03a0060098075882">getValor1</a>() {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> valor1;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_operaciones.html#a93ed98df6723eb3f78127d705f44ce2f">   39</a></span>&#160;    tipoDato <a class="code" href="class_operaciones.html#a93ed98df6723eb3f78127d705f44ce2f">getValor2</a>() {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> valor2;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_operaciones.html#ad144533af8895215ddee54032a4cf672">   41</a></span>&#160;    tipoDato <a class="code" href="class_operaciones.html#ad144533af8895215ddee54032a4cf672">setValor1</a>(<span class="keywordtype">int</span> _valor1) {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        valor1 = _valor1;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    tipoDato suma();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    tipoDato resta();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    tipoDato multiplicacion();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    tipoDato division();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="class_operaciones.html#a90c748ab170387bedefcf3c678092049">   52</a></span>&#160;tipoDato <a class="code" href="class_operaciones.html#a90c748ab170387bedefcf3c678092049">Operaciones&lt;tipoDato&gt;::suma</a>() {</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">return</span> getValor1() + getValor2();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_operaciones.html#ad7c78e3f2c4d8e1ee366ffb3ed90a416">   56</a></span>&#160;tipoDato <a class="code" href="class_operaciones.html#ad7c78e3f2c4d8e1ee366ffb3ed90a416">Operaciones&lt;tipoDato&gt;::resta</a>() {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">return</span> getValor1() - getValor2();</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="class_operaciones.html#a5c2424c4c53af54d5a5e2e6ecd0984ce">   60</a></span>&#160;tipoDato <a class="code" href="class_operaciones.html#a5c2424c4c53af54d5a5e2e6ecd0984ce">Operaciones&lt;tipoDato&gt;::multiplicacion</a>() {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> getValor1() * getValor2();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_operaciones.html#a89e1f005be686e448546d47b40e5d449">   64</a></span>&#160;tipoDato <a class="code" href="class_operaciones.html#a89e1f005be686e448546d47b40e5d449">Operaciones&lt;tipoDato&gt;::division</a>() {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">if</span> (getValor2() == 0) {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;No existe la división para 0&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> getValor1() / getValor2();</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
-<div class="ttc" id="aclass_operaciones_html"><div class="ttname"><a href="class_operaciones.html">Operaciones</a></div><div class="ttdef"><b>Definition:</b> Operaciones.h:8</div></div>
-<div class="ttc" id="aclass_operaciones_html_a5c2424c4c53af54d5a5e2e6ecd0984ce"><div class="ttname"><a href="class_operaciones.html#a5c2424c4c53af54d5a5e2e6ecd0984ce">Operaciones::multiplicacion</a></div><div class="ttdeci">tipoDato multiplicacion()</div><div class="ttdef"><b>Definition:</b> Operaciones.h:60</div></div>
-<div class="ttc" id="aclass_operaciones_html_a64323a06376a39cd48cf513990d14615"><div class="ttname"><a href="class_operaciones.html#a64323a06376a39cd48cf513990d14615">Operaciones::Operaciones</a></div><div class="ttdeci">Operaciones(tipoDato _valor1, tipoDato _valor2)</div><div class="ttdef"><b>Definition:</b> Operaciones.h:14</div></div>
-<div class="ttc" id="aclass_operaciones_html_a89e1f005be686e448546d47b40e5d449"><div class="ttname"><a href="class_operaciones.html#a89e1f005be686e448546d47b40e5d449">Operaciones::division</a></div><div class="ttdeci">tipoDato division()</div><div class="ttdef"><b>Definition:</b> Operaciones.h:64</div></div>
-<div class="ttc" id="aclass_operaciones_html_a90c748ab170387bedefcf3c678092049"><div class="ttname"><a href="class_operaciones.html#a90c748ab170387bedefcf3c678092049">Operaciones::suma</a></div><div class="ttdeci">tipoDato suma()</div><div class="ttdef"><b>Definition:</b> Operaciones.h:52</div></div>
-<div class="ttc" id="aclass_operaciones_html_a93ed98df6723eb3f78127d705f44ce2f"><div class="ttname"><a href="class_operaciones.html#a93ed98df6723eb3f78127d705f44ce2f">Operaciones::getValor2</a></div><div class="ttdeci">tipoDato getValor2()</div><div class="ttdef"><b>Definition:</b> Operaciones.h:39</div></div>
-<div class="ttc" id="aclass_operaciones_html_a95376b163651586b03a0060098075882"><div class="ttname"><a href="class_operaciones.html#a95376b163651586b03a0060098075882">Operaciones::getValor1</a></div><div class="ttdeci">tipoDato getValor1()</div><div class="ttdef"><b>Definition:</b> Operaciones.h:34</div></div>
-<div class="ttc" id="aclass_operaciones_html_abcd57f9e595cca8a9e6f95e1c9176441"><div class="ttname"><a href="class_operaciones.html#abcd57f9e595cca8a9e6f95e1c9176441">Operaciones::setValor2</a></div><div class="ttdeci">tipoDato setValor2(int _valor2)</div><div class="ttdef"><b>Definition:</b> Operaciones.h:27</div></div>
-<div class="ttc" id="aclass_operaciones_html_ad144533af8895215ddee54032a4cf672"><div class="ttname"><a href="class_operaciones.html#ad144533af8895215ddee54032a4cf672">Operaciones::setValor1</a></div><div class="ttdeci">tipoDato setValor1(int _valor1)</div><div class="ttdef"><b>Definition:</b> Operaciones.h:22</div></div>
-<div class="ttc" id="aclass_operaciones_html_ad7c78e3f2c4d8e1ee366ffb3ed90a416"><div class="ttname"><a href="class_operaciones.html#ad7c78e3f2c4d8e1ee366ffb3ed90a416">Operaciones::resta</a></div><div class="ttdeci">tipoDato resta()</div><div class="ttdef"><b>Definition:</b> Operaciones.h:56</div></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="class_operaciones.html#abcd57f9e595cca8a9e6f95e1c9176441">   53</a></span>&#160;    tipoDato <a class="code" href="class_operaciones.html#abcd57f9e595cca8a9e6f95e1c9176441">setValor2</a>(<span class="keywordtype">int</span> _valor2) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        valor2 = _valor2;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_operaciones.html#a95376b163651586b03a0060098075882">   64</a></span>&#160;    tipoDato <a class="code" href="class_operaciones.html#a95376b163651586b03a0060098075882">getValor1</a>() {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> valor1;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="class_operaciones.html#a93ed98df6723eb3f78127d705f44ce2f">   75</a></span>&#160;    tipoDato <a class="code" href="class_operaciones.html#a93ed98df6723eb3f78127d705f44ce2f">getValor2</a>() {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> valor2;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    tipoDato suma();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    tipoDato resta();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    tipoDato multiplicacion();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    tipoDato division();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;};</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="class_operaciones.html#a90c748ab170387bedefcf3c678092049">  111</a></span>&#160;tipoDato <a class="code" href="class_operaciones.html#a90c748ab170387bedefcf3c678092049">Operaciones&lt;tipoDato&gt;::suma</a>() {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">return</span> getValor1() + getValor2();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;}</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="class_operaciones.html#ad7c78e3f2c4d8e1ee366ffb3ed90a416">  115</a></span>&#160;tipoDato <a class="code" href="class_operaciones.html#ad7c78e3f2c4d8e1ee366ffb3ed90a416">Operaciones&lt;tipoDato&gt;::resta</a>() {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">return</span> getValor1() - getValor2();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="class_operaciones.html#a5c2424c4c53af54d5a5e2e6ecd0984ce">  119</a></span>&#160;tipoDato <a class="code" href="class_operaciones.html#a5c2424c4c53af54d5a5e2e6ecd0984ce">Operaciones&lt;tipoDato&gt;::multiplicacion</a>() {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">return</span> getValor1() * getValor2();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> tipoDato&gt;</div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="class_operaciones.html#a89e1f005be686e448546d47b40e5d449">  123</a></span>&#160;tipoDato <a class="code" href="class_operaciones.html#a89e1f005be686e448546d47b40e5d449">Operaciones&lt;tipoDato&gt;::division</a>() {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span> (getValor2() == 0) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;No existe la división para 0&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordflow">return</span> getValor1() / getValor2();</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;}</div>
+<div class="ttc" id="aclass_operaciones_html"><div class="ttname"><a href="class_operaciones.html">Operaciones</a></div><div class="ttdef"><b>Definition:</b> Operaciones.h:17</div></div>
+<div class="ttc" id="aclass_operaciones_html_a5c2424c4c53af54d5a5e2e6ecd0984ce"><div class="ttname"><a href="class_operaciones.html#a5c2424c4c53af54d5a5e2e6ecd0984ce">Operaciones::multiplicacion</a></div><div class="ttdeci">tipoDato multiplicacion()</div><div class="ttdoc">Multiplica dos valores.</div><div class="ttdef"><b>Definition:</b> Operaciones.h:119</div></div>
+<div class="ttc" id="aclass_operaciones_html_a64323a06376a39cd48cf513990d14615"><div class="ttname"><a href="class_operaciones.html#a64323a06376a39cd48cf513990d14615">Operaciones::Operaciones</a></div><div class="ttdeci">Operaciones(tipoDato _valor1, tipoDato _valor2)</div><div class="ttdoc">Construct a new Operaciones object.</div><div class="ttdef"><b>Definition:</b> Operaciones.h:28</div></div>
+<div class="ttc" id="aclass_operaciones_html_a89e1f005be686e448546d47b40e5d449"><div class="ttname"><a href="class_operaciones.html#a89e1f005be686e448546d47b40e5d449">Operaciones::division</a></div><div class="ttdeci">tipoDato division()</div><div class="ttdoc">Divide dos valores.</div><div class="ttdef"><b>Definition:</b> Operaciones.h:123</div></div>
+<div class="ttc" id="aclass_operaciones_html_a90c748ab170387bedefcf3c678092049"><div class="ttname"><a href="class_operaciones.html#a90c748ab170387bedefcf3c678092049">Operaciones::suma</a></div><div class="ttdeci">tipoDato suma()</div><div class="ttdoc">Suma dos valores.</div><div class="ttdef"><b>Definition:</b> Operaciones.h:111</div></div>
+<div class="ttc" id="aclass_operaciones_html_a93ed98df6723eb3f78127d705f44ce2f"><div class="ttname"><a href="class_operaciones.html#a93ed98df6723eb3f78127d705f44ce2f">Operaciones::getValor2</a></div><div class="ttdeci">tipoDato getValor2()</div><div class="ttdoc">Get the Valor2 object.</div><div class="ttdef"><b>Definition:</b> Operaciones.h:75</div></div>
+<div class="ttc" id="aclass_operaciones_html_a95376b163651586b03a0060098075882"><div class="ttname"><a href="class_operaciones.html#a95376b163651586b03a0060098075882">Operaciones::getValor1</a></div><div class="ttdeci">tipoDato getValor1()</div><div class="ttdoc">Get the Valor1 object.</div><div class="ttdef"><b>Definition:</b> Operaciones.h:64</div></div>
+<div class="ttc" id="aclass_operaciones_html_abcd57f9e595cca8a9e6f95e1c9176441"><div class="ttname"><a href="class_operaciones.html#abcd57f9e595cca8a9e6f95e1c9176441">Operaciones::setValor2</a></div><div class="ttdeci">tipoDato setValor2(int _valor2)</div><div class="ttdoc">Set the Valor2 object.</div><div class="ttdef"><b>Definition:</b> Operaciones.h:53</div></div>
+<div class="ttc" id="aclass_operaciones_html_ad144533af8895215ddee54032a4cf672"><div class="ttname"><a href="class_operaciones.html#ad144533af8895215ddee54032a4cf672">Operaciones::setValor1</a></div><div class="ttdeci">tipoDato setValor1(int _valor1)</div><div class="ttdoc">Set the Valor1 object.</div><div class="ttdef"><b>Definition:</b> Operaciones.h:41</div></div>
+<div class="ttc" id="aclass_operaciones_html_ad7c78e3f2c4d8e1ee366ffb3ed90a416"><div class="ttname"><a href="class_operaciones.html#ad7c78e3f2c4d8e1ee366ffb3ed90a416">Operaciones::resta</a></div><div class="ttdeci">tipoDato resta()</div><div class="ttdoc">Resta dos valores.</div><div class="ttdef"><b>Definition:</b> Operaciones.h:115</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

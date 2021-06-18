@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "HW01_BasicOperations_CDOCS", "index.html", [
+  [ "HW01_BasicOperations", "index.html", [
     [ "Clases", "annotated.html", [
       [ "Lista de clases", "annotated.html", "annotated_dup" ],
       [ "Índice de clases", "classes.html", null ],
