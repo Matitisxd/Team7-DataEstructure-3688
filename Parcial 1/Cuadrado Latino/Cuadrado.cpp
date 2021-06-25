@@ -5,7 +5,7 @@ using namespace std;
 
 Cuadrado::Cuadrado(int _dim)
 {
-	_dim = dim;
+	this ->dim = _dim;
 }
 int Cuadrado::ingreso(){
     int n;

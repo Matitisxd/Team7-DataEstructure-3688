@@ -25,7 +25,7 @@ double Operaciones::calcularSeno(float angulo, int terminos)
 	double cotan = 0;
 	for (int i = 0; i < terminos; i++) {
 
-		cotan = (cotan + pow(-1, terminos) * pow(2, (2 * terminos)) * (2 * terminos) * pow(angulo, (2 * terminos - 1))) / fact(2 * terminos);
+		cotan = (cotan + pow(-1, terminos) * pow(2, (2 * terminos)) * (2 * terminos) * pow(angulo, (2 * terminos - 1))) / fact(2*terminos);
 
 	}
 	return cotan;

@@ -2,8 +2,8 @@
  *				Carrera: Software													 *
  *				Autores: Navas Renato, Paez Adrián,									 *
  *						Pallango Andrés, Rodríguez Mathyws,							 *
- *						Ruiz Jericó.												 *
- *				Fecha de creación: 08/06/2021										 *
+ *						Ruiz Jerico.												 *
+ *				Fecha de creacion: 08/06/2021										 *
  *				Fecha de modificación: 08/06/2021									 *
  *************************************************************************************/
 #include <iostream>

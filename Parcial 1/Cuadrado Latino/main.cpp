@@ -5,10 +5,7 @@
 using namespace std;
 
 int main()
-{
-    
+{ 
 	Cuadrado c1(5);
-
-
     system("pause");
 }
