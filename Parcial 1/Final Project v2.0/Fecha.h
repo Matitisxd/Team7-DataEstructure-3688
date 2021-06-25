@@ -15,7 +15,6 @@ class Fecha
    		void setAnio(int newAnio);
    		int verificarDiaSemana();
 	protected:
-
 	private:
 		int dia;
 		int mes;
