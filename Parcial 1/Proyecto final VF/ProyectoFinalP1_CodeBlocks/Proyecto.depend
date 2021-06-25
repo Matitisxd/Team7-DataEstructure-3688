@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1624590728 source:c:\users\bermu\desktop\proyectos\proyecto\fecha.cpp
+	"Fecha.h"
+
+1624589090 c:\users\bermu\desktop\proyectos\proyecto\fecha.h
+	<ctime>
+
+1624599944 source:c:\users\bermu\desktop\proyectos\proyecto\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Lista.h"
+	"Fecha.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1624589190 c:\users\bermu\desktop\proyectos\proyecto\persona.h
+	<iostream>
+
+1624594506 c:\users\bermu\desktop\proyectos\proyecto\lista.h
+	"Nodo.h"
+	"Persona.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1624507465 c:\users\bermu\desktop\proyectos\proyecto\nodo.h
+	"Persona.h"
+
+1624571820 source:c:\users\bermu\desktop\proyectos\proyecto\nodo.cpp
+	"Nodo.h"
+
+1624589224 source:c:\users\bermu\desktop\proyectos\proyecto\persona.cpp
+	"Persona.h"
+
+1624594613 source:c:\users\bermu\desktop\proyectos\proyecto\lista.cpp
+	"Lista.h"
+
+1624600421 c:\users\bermu\desktop\proyectos\proyecto\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Fecha.h"
+
+1624597949 c:\users\bermu\desktop\proyectos\proyecto\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1624590728 source:c:\users\home\downloads\proyecto (1)\proyecto\fecha.cpp
+	"Fecha.h"
+
+1624589090 c:\users\home\downloads\proyecto (1)\proyecto\fecha.h
+	<ctime>
+
+1624594613 source:c:\users\home\downloads\proyecto (1)\proyecto\lista.cpp
+	"Lista.h"
+
+1624594506 c:\users\home\downloads\proyecto (1)\proyecto\lista.h
+	"Nodo.h"
+	"Persona.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1624507465 c:\users\home\downloads\proyecto (1)\proyecto\nodo.h
+	"Persona.h"
+
+1624589190 c:\users\home\downloads\proyecto (1)\proyecto\persona.h
+	<iostream>
+
+1624599944 source:c:\users\home\downloads\proyecto (1)\proyecto\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Lista.h"
+	"Fecha.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1624600421 c:\users\home\downloads\proyecto (1)\proyecto\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Fecha.h"
+
+1624597949 c:\users\home\downloads\proyecto (1)\proyecto\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1624571820 source:c:\users\home\downloads\proyecto (1)\proyecto\nodo.cpp
+	"Nodo.h"
+
+1624589224 source:c:\users\home\downloads\proyecto (1)\proyecto\persona.cpp
+	"Persona.h"
+
