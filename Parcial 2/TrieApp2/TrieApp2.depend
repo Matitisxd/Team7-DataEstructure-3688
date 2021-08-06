@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1628053166 source:c:\code blocks programacion\trieapp2\main.cpp
+	<iostream>
+	<cstdio>
+	<conio.h>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<locale.h>
+	<stdio.h>
+	<wchar.h>
+	"TrieTree.h"
+
+1628047175 c:\code blocks programacion\trieapp2\trietree.h
+	"TrieNode.h"
+
+1628047175 c:\code blocks programacion\trieapp2\trienode.h
+	<iostream>
+	<string>
+	<string.h>
+	<stdio.h>
+
+1628053411 source:c:\users\home\downloads\trieapp2\trieapp2\main.cpp
+	<iostream>
+	<cstdio>
+	<conio.h>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<locale.h>
+	<stdio.h>
+	<wchar.h>
+	"TrieTree.h"
+
+1628047175 c:\users\home\downloads\trieapp2\trieapp2\trietree.h
+	"TrieNode.h"
+
+1628047175 c:\users\home\downloads\trieapp2\trieapp2\trienode.h
+	<iostream>
+	<string>
+	<string.h>
+	<stdio.h>
+
