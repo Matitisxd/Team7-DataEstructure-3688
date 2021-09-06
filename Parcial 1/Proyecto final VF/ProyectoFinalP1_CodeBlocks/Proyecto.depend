@@ -107,3 +107,57 @@
 1624589224 source:c:\users\home\downloads\proyecto (1)\proyecto\persona.cpp
 	"Persona.h"
 
+1624594613 source:c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\lista.cpp
+	"Lista.h"
+
+1624594506 c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\lista.h
+	"Nodo.h"
+	"Persona.h"
+	<iostream>
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1624507465 c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\nodo.h
+	"Persona.h"
+
+1624589190 c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\persona.h
+	<iostream>
+
+1624599944 source:c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Persona.h"
+	"Lista.h"
+	"Fecha.h"
+	"Nodo.h"
+	"procesos.h"
+	"Validacion.h"
+
+1624589090 c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\fecha.h
+	<ctime>
+
+1624600421 c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\procesos.h
+	<iostream>
+	<cstring>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+	"Persona.h"
+	"Fecha.h"
+
+1624597949 c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\validacion.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1624571820 source:c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\nodo.cpp
+	"Nodo.h"
+
+1624589224 source:c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\persona.cpp
+	"Persona.h"
+
+1624636865 source:c:\users\home\desktop\ed3688\repositorio\team7-datastructure-3688\parcial 1\proyecto final vf\proyectofinalp1_codeblocks\fecha.cpp
+	"Fecha.h"
+

@@ -63,7 +63,7 @@ bool Fecha::verificarFecha(){
     if(dia<1 || dia>dias[mes-1]){
         return false;
     }
-    if(anio<now->tm_year){
+    if(anio<now->tm_year && anio <now->tm_year +3){
         return false;
     }
     return true;
