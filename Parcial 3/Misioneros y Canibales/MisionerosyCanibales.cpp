@@ -1,3 +1,13 @@
+//	Universidad de las Fuerzas Armadas ESPE
+//	Grupo No. 7
+///////////////////////////////////////////
+//Integrantes:
+//- Navas Renato
+//- Pallango Andrés
+//- Ruiz Jericó
+///////////////////////////////////////////
+//	Estructura de Datos, NRC: 3688
+
 #include <stdio.h>
 #include <stdlib.h>
  
