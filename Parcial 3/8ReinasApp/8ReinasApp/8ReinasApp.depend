@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1629897840 source:c:\code blocks programacion\8reinasapp\main.cpp
+	<iostream>
+	<fstream>
+	"Reina.h"
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	"IngresoDatos.h"
+
+1630803715 c:\code blocks programacion\8reinasapp\reina.h
+	<iostream>
+	<fstream>
+
+1629897853 c:\code blocks programacion\8reinasapp\ingresodatos.h
+	<iostream>
+	"Validacion.h"
+
+1630510315 c:\code blocks programacion\8reinasapp\validacion.h
+	<iostream>
+	<ctype.h>
+	<string.h>
+
