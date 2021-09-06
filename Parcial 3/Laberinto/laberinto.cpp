@@ -1,3 +1,13 @@
+//	Universidad de las Fuerzas Armadas ESPE
+//	Grupo No. 7
+///////////////////////////////////////////
+//Integrantes:
+//- Navas Renato
+//- Pallango Andrés
+//- Ruiz Jericó
+///////////////////////////////////////////
+//	Estructura de Datos, NRC: 3688
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -33,14 +43,14 @@ void leerArchivo() {
                 codigo = caracter; // obtenemos el codigo Ascii de el caracter
  
                 if (codigo==10) { // codigo del salto de linea
-                   f++; // Si encontramos un enter a�adimos una fila mas a nuestra matriz
+                   f++; // Si encontramos un enter añadimos una fila mas a nuestra matriz
                    if (flag) {maxCol=c; flag=false;} // solo lo hacemos una vez
                    c=0;
                 } else {
                        m[f][c]=codigo-48;
                        if (m[f][c]==2){fp=f;cp=c;}
                        if (m[f][c]==3){fs=f;cs=c;}
-                       c++ ;// a�adimos una columna mas a nuestra matriz
+                       c++ ;// añadimos una columna mas a nuestra matriz
                 }
         }
         c=maxCol; // si no ponemos esto la matriz queda de una columna
